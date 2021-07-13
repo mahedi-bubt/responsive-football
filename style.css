@@ -32,7 +32,6 @@ header{
     font-weight: 700;
     
 }
-
 /* @keyframes text-animation{
     0%{margin-bottom: 100px;}
     10%{margin-bottom: 50px;}
@@ -186,6 +185,7 @@ footer{
     }
     .player-card{  
         width: 360px;
+        /* margin-left: 25px; */
     } 
     .player-collection{
         width: 100%;
@@ -204,8 +204,8 @@ footer{
          text-align: center;
      }
      .copyright{
+         margin-top: 15px;
          text-align: center;
-         padding-top: 15px;
      }
  }
 
