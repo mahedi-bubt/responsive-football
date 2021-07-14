@@ -141,6 +141,47 @@ h1.highlights-title{
     margin-right: 20px;
 }
 
+/* contact us section */
+
+/* Contact Us section*/
+.contact-me h1{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    color: blue;
+}
+.border{
+    border: 2px solid gray;
+    margin-bottom: 40px;
+    width: 350px;
+    margin-left: 500px;
+}
+
+.contact-form{
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.contact-form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
 /* Footer Section */
 footer{
     margin-top: 10px;
@@ -193,7 +234,12 @@ footer{
         height: 250px;
         
     }
-    
+    .player-collection{
+        width: 100%;
+    }
+    .player-card{  
+        width: 360px
+    } 
     .players{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 27px;
@@ -201,19 +247,52 @@ footer{
     .player img{
        width: 330px; 
     }
-    .player-card{  
-        width: 360px
-    }  
-     .player-collection{
-        width: 100%;
-    }
-    
+      
      .highlaites{
          flex-direction: column;
      }
      iframe{
          width: 400px;
      }
+
+     /* Contact Us section*/
+     .contact-me h1{
+        text-align: center;
+        margin-top: 55px;
+        margin-bottom: 20px;
+        color: blue;
+    }
+    .border{
+        border: 2px solid gray;
+        margin-bottom: 40px;
+        width: 300px;
+        margin-left: 60px;
+    }
+    
+    .contact-form{
+        width: 400px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+    .contact-form input, textarea{
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        margin: 5px 0;
+        border: 2px solid blue;
+        border-radius: 10px;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: blue;
+        font-size: 20px;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        margin-left: 120px;
+        margin-top: 15px;
+    }
 
      footer{
          flex-direction: column;
